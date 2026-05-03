@@ -1,8 +1,8 @@
-'''bash
+```bash
 {
     version = "~> 5.0"
 }
-'''
+```
 } } This means:
 
 Use AWS provider version >= 5.0.0 but < 6.0.0.
