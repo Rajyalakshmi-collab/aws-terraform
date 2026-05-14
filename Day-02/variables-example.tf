@@ -11,11 +11,6 @@ variable "ami_id" {
     type = string
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  region = "us-east-1"
-}
-
 #create an EC2 instance using the input variables
 resource "aws_instance" "example_instance" {
   ami                     = var.ami_id
