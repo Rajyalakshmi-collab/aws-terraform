@@ -2,7 +2,7 @@
 variable "instance_type" {
     description = "Ec2 instance type"
     type = string
-    default = "t2.micro"
+    default = "t3.micro"
 }
 
 # Define an input variable for the EC2 instance AMI ID
