@@ -9,7 +9,7 @@ variable "instance_type" {
 variable "ami_id" {
     description = "EC2 ami id"
     type = string
-    default = "ami-05d62b9bc5a6ca605"
+    default = "ami-056ee4729b02a3d8c"
 }
 
 #create an EC2 instance using the input variables
