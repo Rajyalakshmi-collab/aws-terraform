@@ -77,7 +77,7 @@ resource "aws_instance" "server" {
    tags = {
     Name = "HelloWorld"
   }
-}
+
 
  connection {
     type        = "ssh"
@@ -102,4 +102,5 @@ resource "aws_instance" "server" {
       "sudo python3 app.py &",
     ]
   }
+}
 
